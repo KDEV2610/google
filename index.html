@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            /* align-self: auto; */
+        }
+
+        /* .header-link{
+        inline-size: none;
+    } */
+        .logo-search {
+
+            display: block;
+            margin: auto;
+        }
+
+        .search {
+            width: 100%;
+            height: 40px;
+            border-radius: 50px;
+            font-size: 22px;
+            padding: 0 40px;
+            color: grey;
+            border: 1px solid rgb(193, 193, 193);
+
+        }
+
+        .search-icon {
+            /* display: block; */
+            /* margin: auto; */
+            margin-top: -30px;
+            margin-left: 10px;
+            float: left;
+        }
+
+        .mic-icon {
+            float: right;
+            margin-top: -30px;
+            margin-right: 15px;
+
+        }
+
+        .search-button {
+
+            margin-left: 500px;
+            display: block;
+            padding: 10px 10px;
+        }
+
+        .btn {
+            background-color: #f8f9fa;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #3c4043;
+            border: 1px solid #f8f9fa;
+            border-radius: 4px;
+
+        }
+
+        .below-search {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+
+        #lang {
+            display: inline;
+        }
+
+        .lang {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .box {
+            /* border: 1px solid green; */
+            width: 43%;
+            margin: auto;
+            margin-top: 15vh;
+        }
+
+        nav * {
+            margin-left: 20px;
+        }
+
+        [type="search"]::-webkit-search-cancel-button,
+        [type="search"]::-webkit-search-decoration {
+            -webkit-appearance: none;
+            appearance: none;
+        }
+
+        .menu-icon {
+            padding: 5px;
+            /* margin-bottom: -10px; */
+            position: relative;
+            top: 10px;
+        }
+
+        .menu-icon:hover {
+            background-color: #c5c5c5;
+            border-radius: 50%;
+        }
+
+        .gmail {
+            text-decoration: none;
+        }
+
+        .sign-in {
+            background-color: blue;
+            padding: 10px 20px;
+            color: white;
+            border-radius: 4px;
+            text-decoration: none;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            /* height: auto; */
+        }
+
+        .footer {
+            background-color: #f2f2f2;
+
+        }
+
+        .footer>div {
+            border-bottom: 1px solid #dadce0;
+            padding: 15px;
+
+        }
+
+        .footer div a,
+        p {
+            text-decoration: none;
+            color: #1b1b1c;
+            padding: 0 20px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+
+            <a class="gmail" href="https://mail.google.com/mail/u/0/?ogbl#inbox">Gmail</a>
+            <a class="gmail" href="https://www.google.com/imghp?hl=hi&authuser=0&ogbl">Image</a>
+
+            <img class="menu-icon" width="20" height="20"
+                src="https://img.icons8.com/ios-glyphs/30/circled-menu--v2.png" alt="circled-menu--v2" />
+
+            <a class="sign-in" href="#">Sign in</a>
+
+
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="box">
+            <img class="logo-search"
+                src="https://www.google.co.in/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
+            <input placeholder="type here " class="logo-search search" type="search">
+            <img class="search-icon" width="24" height="24"
+                src="https://img.icons8.com/material-outlined/24/7F7F7F/search--v1.png" alt="search--v1" />
+            <img class="mic-icon" width="30" height="30"
+                src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-25-512.png"
+                alt="search--v1" />
+
+            <div class="below-search">
+                <a class="btn" href="">Google search</a>
+                <a class="btn" href="">I'm feeling lucky</a>
+            </div>
+        </div>
+
+        <div class="lang">
+            <p id="lang">Google offered in:</p>
+            <a href="">हिन्दी</a>
+            <a href="">বাংলা</a>
+            <a href="">తెలుగు</a>
+            <a href="">मराठी</a>
+            <a href="">தமிழ்</a>
+            <a href="">ગુજરાતી</a>
+            <a href="">ಕನ್ನಡ</a>
+            <a href="">മലയാളം</a>
+            <a href="">ਪੰਜਾਬੀ</a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <div>
+                <p>India</p>
+            </div>
+            <div style="display: flex; justify-content: space-between;">
+                <div>
+                    <a href="#">About</a>
+                    <a href="#">Advertising</a>
+                    <a href="#">Business</a>
+                    <a href="#">How Searh work</a>
+                </div>
+                <div>
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Setting</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+
+</script>
+
+</html>
